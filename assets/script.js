@@ -235,8 +235,11 @@ function initModals() {
         </p>
 
         <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-          <a href="${data.githubLink}" target="_blank" class="btn btn-primary">
+          <a href="${data.githubLink}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
             <i class="fab fa-github"></i> View GitHub Repository
+          </a>
+          <a href="https://www.linkedin.com/in/sanjeetdatahub" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-color: #0A66C2; color: #0A66C2;">
+            <i class="fab fa-linkedin"></i> Connect on LinkedIn
           </a>
           <button class="btn btn-outline" onclick="closeModal()">Close Window</button>
         </div>
